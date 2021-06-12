@@ -1,0 +1,78 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url(./img/bgc.jpg);
+  max-width: 1246px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  margin: 35px 0 90px 0;
+}
+
+.logo-img {
+  padding-right: 17px;
+}
+
+.name {
+  color: #275553;
+  font-weight: 600;
+}
+
+.lastname {
+  color: #f47648;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-item {
+  padding-right: 64px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nav-button {
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+  border: 1px solid #212121;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 11px 32px;
+  background-color: inherit;
+}
+
+h1 {
+  width: 616px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+
+.main-button {
+  width: 433px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 56px;
+  color: #ffffff;
+  background: linear-gradient(91.82deg, #fb8b62 5.83%, #f47648 89.73%), #f47648;
+  backdrop-filter: blur(68px);
+  border-radius: 16px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+h2 {
+  width: 384px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
